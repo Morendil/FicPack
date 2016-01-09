@@ -9,5 +9,5 @@ cache_path=$(cd $2 && pwd)
 
 echo "-----> Found .inform file"
 
-$build_pack_path/inform/bin/i7 -p $build_pack_path/inform7 -r *.inform
+$build_pack_path/inform/bin/i7 -p $build_pack_path/inform -r *.inform
 cp -rp *.materials/Release/* $build_path
