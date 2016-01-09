@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f $1/*.inform ]; then
+if [ -e $1/*.inform ]; then
   echo "Inform"
   exit 0
 else
